@@ -1,0 +1,33 @@
+$font-family:  'Montserrat', sans-serif;
+
+h2 {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+.text {
+  font-size: 1em;
+  font-family: $font-family;
+}
+
+.description {
+  margin: -10px 0 50px 0;
+}
+
+.degrees {
+  font-size: 1.9em;
+}
+
+button {
+  margin:0 10px;
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 7px;
+  background-color: rgb(225, 225, 225);
+}
+
+button:hover {
+  // 20% darker than the original color
+  background-color: rgb(188, 188, 188);
+  
+}
